@@ -1,6 +1,6 @@
 # Portfolio
 
-![My Picture](https://github.com/carolineterryn/carolineterryn.github.io/issues/1#issue-2740880833)
+![Headshot](https://github.com/user-attachments/assets/1ba490a8-0eda-4a68-8f4d-693a82aa6fc4)
 
 Welcome to my portfolio! On these repo, I have a variety of projects that I 
 have been working on over the past few years at Northwestern University. 
