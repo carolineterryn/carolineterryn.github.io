@@ -1,6 +1,11 @@
 theme: jekyll-theme-minimal
 title: Caroline Terryn
-
-![Headshot](https://github.com/user-attachments/assets/1ba490a8-0eda-4a68-8f4d-693a82aa6fc4)
-
-description: Northwestern University | B.S. in Mechanical Engineering with a Concentration in Robotics
+description: > 
+  <div style="text-align: center;">
+    <img src="https://github.com/user-attachments/assets/1ba490a8-0eda-4a68-8f4d-693a82aa6fc4" 
+         alt="Headshot" 
+         style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 10px;">
+  </div>
+  <p style="text-align: center;">
+    Northwestern University | B.S. in Mechanical Engineering with a Concentration in Robotics
+  </p>
