@@ -9,4 +9,4 @@ machining and mechanical design. I hope you enjoy browsing!
 
 If you wish to reach out, [click here](mailto:carolineterryn2025@u.northwestern.edu).
 
-You can also view my resume here: [Caroline Terryn Resume.pdf](https://github.com/user-attachments/files/18142008/Caroline.Terryn.Resume.pdf).
+You can also view my resume here: [Resume.pdf](https://github.com/user-attachments/files/18142018/Resume.pdf).
