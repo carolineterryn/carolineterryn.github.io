@@ -13,7 +13,8 @@ As a team, we programmed the Franka Emika Robot (FER) to play a game of pool on 
 The FER will continue to attempt to knock the blue balls into a pocket until the red ball gets knocked
 into a pocket or when all of the balls have been cleared off the table. 
 
-Poolinator in Action
+Poolinator in Action:
+
 <img width="245" alt="Poolinator in Action" src="https://github.com/user-attachments/assets/ab40a052-6dd3-48f3-a214-d8fd682553aa" />
 
 [Click here to view the Poolinator Demo](
