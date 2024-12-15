@@ -19,4 +19,4 @@ into a pocket or when all of the balls have been cleared off the table.
   <source src="https://github.com/user-attachments/assets/71ba657b-6114-4a4d-85ac-b4600d58953f" type="video/mp4">
 </video>
 
-[Click here to view the Poolinator Demo](https://drive.google.com/file/d/1psu3DP3Hr34mRSthxlqQxPMicgn3MlMN/view?usp=sharing)
+[Click here to view the full Poolinator Demo](https://drive.google.com/file/d/1psu3DP3Hr34mRSthxlqQxPMicgn3MlMN/view?usp=sharing)
