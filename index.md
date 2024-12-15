@@ -15,6 +15,6 @@ into a pocket or when all of the balls have been cleared off the table.
 
 <img width="400" alt="Poolinator in Action" src="https://github.com/user-attachments/assets/ab40a052-6dd3-48f3-a214-d8fd682553aa" />
 
-[Example Shot](https://github.com/user-attachments/assets/71ba657b-6114-4a4d-85ac-b4600d58953f)
+[!Example Shot](https://github.com/user-attachments/assets/71ba657b-6114-4a4d-85ac-b4600d58953f)
 
 [Click here to view the Poolinator Demo](https://drive.google.com/file/d/1psu3DP3Hr34mRSthxlqQxPMicgn3MlMN/view?usp=sharing)
