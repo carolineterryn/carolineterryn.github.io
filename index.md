@@ -25,6 +25,7 @@ A video of the turtle following the waypoints can be seen below.
   <source src="https://github.com/user-attachments/assets/2dac45da-11d4-454e-9fd4-bd8c3972bc1d" type="video/webm">
 </video>
 
+
 ### Machining a 2-DOF Pantograph
 <div class="slideshow-container">
   <!-- Slide 1 -->
@@ -33,5 +34,35 @@ A video of the turtle following the waypoints can be seen below.
     <div class="caption">Initial SolidWorks Design</div>
   </div>
 
+  <!-- Slide 2 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/b1ede566-a9c4-440a-85ef-67a83f3582ed" style="width:500" alt="Lathe">
+    <div class="caption">Caption for Image 2</div>
+  </div>
 
+  <!-- Next/Prev Buttons -->
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let slides = document.getElementsByClassName("mySlides");
+  for (let i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex - 1].style.display = "block";
+  setTimeout(showSlides, 3000); // Change image every 3 seconds
+}
+
+function plusSlides(n) {
+  slideIndex += n - 1; // Adjust index
+  showSlides();
+}
+</script>
 
