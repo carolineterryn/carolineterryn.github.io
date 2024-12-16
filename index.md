@@ -30,63 +30,61 @@ A video of the turtle following the waypoints can be seen below.
 <div class="slideshow-container">
   <!-- Slide 1 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/bee45706-c4c6-4257-946b-b14474d65a8e" style="width:100%" alt="Image 1">
+    <img src="https://github.com/user-attachments/assets/bee45706-c4c6-4257-946b-b14474d65a8e" style="height:400px" alt="Image 1">
     <div class="caption">Initial SolidWorks Design</div>
   </div>
 
   <!-- Slide 2 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/b1ede566-a9c4-440a-85ef-67a83f3582ed" style="width:100%" alt="Lathe">
+    <img src="https://github.com/user-attachments/assets/b1ede566-a9c4-440a-85ef-67a83f3582ed" style="height:400px" alt="Lathe">
     <div class="caption">First, we lathe!</div>
   </div>
 
   <!-- Slide 3 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/aedf17ed-7727-41d9-904c-a57ef46cddd6" style="width:100%" alt="Selfie Number 1">
+    <img src="https://github.com/user-attachments/assets/aedf17ed-7727-41d9-904c-a57ef46cddd6" style="height:400px" alt="Selfie Number 1">
     <div class="caption">Selfie Break #1</div>
   </div>
 
   <!-- Slide 4 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/2a2116d8-aaa4-47e2-a15a-92988f9dce0d" style="width:100%" alt="Milling Op 1">
+    <img src="https://github.com/user-attachments/assets/2a2116d8-aaa4-47e2-a15a-92988f9dce0d" style="height:400px" alt="Milling Op 1">
     <div class="caption">Now, we mill!</div>
   </div>
 
-  <img width="421" alt="Milling Op 2" src="https://github.com/user-attachments/assets/2ab62598-13d8-47bf-b10e-7f393a17d6a4" />
-
    <!-- Slide 5 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/2ab62598-13d8-47bf-b10e-7f393a17d6a4" style="width:100%" alt="Milling Op 2">
+    <img src="https://github.com/user-attachments/assets/2ab62598-13d8-47bf-b10e-7f393a17d6a4" style="height:400px" alt="Milling Op 2">
     <div class="caption">and more milling...</div>
   </div>
 
    <!-- Slide 6 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/839e99a7-d59c-4269-8624-bd1d6d0eea59" style="width:100%" alt="Milling Op 3">
+    <img src="https://github.com/user-attachments/assets/839e99a7-d59c-4269-8624-bd1d6d0eea59" style="height:400px" alt="Milling Op 3">
     <div class="caption">and more milling...</div>
   </div>
   
   <!-- Slide 7 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/ec5c6ddc-29de-48e4-9e34-1dff9010363c" style="width:100%" alt="Selfie Number 2">
+    <img src="https://github.com/user-attachments/assets/ec5c6ddc-29de-48e4-9e34-1dff9010363c" style="height:400px" alt="Selfie Number 2">
     <div class="caption">Quick milling selfie break!</div>
   </div>
 
   <!-- Slide 8 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/45fe18d0-ed26-4112-99b1-460d62a502d2" style="width:100%" alt="Milling Op 4">
+    <img src="https://github.com/user-attachments/assets/45fe18d0-ed26-4112-99b1-460d62a502d2" style="height:400px" alt="Milling Op 4">
     <div class="caption">and more milling...</div>
   </div>
 
   <!-- Slide 9 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/1edfa0ae-d8ad-4bb2-945f-28ff59b1d7c1" style="width:100%" alt="Assembly">
+    <img src="https://github.com/user-attachments/assets/1edfa0ae-d8ad-4bb2-945f-28ff59b1d7c1" style="height:400px" alt="Assembly">
     <div class="caption">Final assembly post-machining!</div>
   </div>
 
   <!-- Slide 10 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/84cbc043-f570-4228-9d59-492303ed297d" style="width:100%" alt="Final Product">
+    <img src="https://github.com/user-attachments/assets/84cbc043-f570-4228-9d59-492303ed297d" style="height:400px" alt="Final Product">
     <div class="caption">Final Product</div>
   </div>
 
@@ -96,26 +94,27 @@ A video of the turtle following the waypoints can be seen below.
 </div>
 
 <script>
+// Just manually navigate between slides with arrows
 let slideIndex = 0;
-showSlides();
 
 function showSlides() {
   let slides = document.getElementsByClassName("mySlides");
   for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+    slides[i].style.display = "none";  // Hide all slides
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 10000); // Change image every 10 seconds
+  slides[slideIndex].style.display = "block"; // Show current slide
 }
 
 function plusSlides(n) {
-  slideIndex += n - 1; // Adjust index
+  slideIndex += n;
+  if (slideIndex >= document.getElementsByClassName("mySlides").length) { slideIndex = 0; }
+  if (slideIndex < 0) { slideIndex = document.getElementsByClassName("mySlides").length - 1; }
   showSlides();
 }
-</script>
 
+// Initialize the first image to be visible
+showSlides();
+</script>
 
 ### Tetris
 
