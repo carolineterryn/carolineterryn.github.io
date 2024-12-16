@@ -26,6 +26,7 @@ A video of the turtle following the waypoints can be seen below.
 </video>
 
 
+
 ### Machining a 2-DOF Pantograph
 <div class="slideshow-container">
   <!-- Slide 1 -->
