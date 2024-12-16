@@ -27,6 +27,8 @@ A video of the turtle following the waypoints can be seen below.
 <div style="margin-bottom: 30px;"></div>
 
 ## Machining a 2-DOF Pantograph
+As part of my research at Northwestern, I built a pantograph to track users' finger positions. I included a brief slideshow of some of the steps involved to get from the initial design to the final product. Enjoy!
+
 <div class="slideshow-container">
   <!-- Slide 1 -->
   <div class="mySlides fade">
