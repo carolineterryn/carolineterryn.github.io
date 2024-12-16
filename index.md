@@ -52,6 +52,44 @@ A video of the turtle following the waypoints can be seen below.
     <div class="caption">Now, we mill!</div>
   </div>
 
+  <img width="421" alt="Milling Op 2" src="https://github.com/user-attachments/assets/2ab62598-13d8-47bf-b10e-7f393a17d6a4" />
+
+   <!-- Slide 5 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/2ab62598-13d8-47bf-b10e-7f393a17d6a4" style="width:100%" alt="Milling Op 2">
+    <div class="caption">and more milling...</div>
+  </div>
+
+   <!-- Slide 6 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/839e99a7-d59c-4269-8624-bd1d6d0eea59" style="width:100%" alt="Milling Op 3">
+    <div class="caption">and more milling...</div>
+  </div>
+  
+  <!-- Slide 7 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/ec5c6ddc-29de-48e4-9e34-1dff9010363c" style="width:100%" alt="Selfie Number 2">
+    <div class="caption">Quick milling selfie break!</div>
+  </div>
+
+  <!-- Slide 8 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/45fe18d0-ed26-4112-99b1-460d62a502d2" style="width:100%" alt="Milling Op 4">
+    <div class="caption">and more milling...</div>
+  </div>
+
+  <!-- Slide 9 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/1edfa0ae-d8ad-4bb2-945f-28ff59b1d7c1" style="width:100%" alt="Assembly">
+    <div class="caption">Final assembly post-machining!</div>
+  </div>
+
+  <!-- Slide 10 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/84cbc043-f570-4228-9d59-492303ed297d" style="width:100%" alt="Final Product">
+    <div class="caption">Final Product</div>
+  </div>
+
   <!-- Next/Prev Buttons -->
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
@@ -77,4 +115,7 @@ function plusSlides(n) {
   showSlides();
 }
 </script>
+
+
+### Tetris
 
