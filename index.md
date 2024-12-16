@@ -24,7 +24,7 @@ A video of the turtle following the waypoints can be seen below.
   <source src="https://github.com/user-attachments/assets/2dac45da-11d4-454e-9fd4-bd8c3972bc1d" type="video/webm">
 </video>
 
-
+<div style="margin-bottom: 30px;"></div>
 
 ## Machining a 2-DOF Pantograph
 <div class="slideshow-container">
