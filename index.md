@@ -25,3 +25,13 @@ A video of the turtle following the waypoints can be seen below.
   <source src="https://github.com/user-attachments/assets/2dac45da-11d4-454e-9fd4-bd8c3972bc1d" type="video/webm">
 </video>
 
+### Machining a 2-DOF Pantograph
+<div class="slideshow-container">
+  <!-- Slide 1 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/bee45706-c4c6-4257-946b-b14474d65a8e" style="width:100%" alt="Image 1">
+    <div class="caption">Initial SolidWorks Design</div>
+  </div>
+
+
+
