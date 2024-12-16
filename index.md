@@ -1,11 +1,10 @@
-## Portfolio
 Welcome to my portfolio! On this website, I have a variety of projects that I have been working on over the past few years at Northwestern University. These range from software development and embedded systems in C, C++, Python, ROS, and MATLAB to machining and mechanical design. I hope you enjoy browsing! 
 
 If you wish to reach out, [click here](mailto:carolineterryn2025@u.northwestern.edu).
 
 To view my resume, [click here](https://github.com/user-attachments/files/18142018/Resume.pdf).
 
-### The Poolinator
+## The Poolinator
 As a team, we programmed the Franka Emika Robot (FER) to play a game of pool on a tabletop pool set. The FER will continue to attempt to knock the blue balls into a pocket until the red ball gets knocked into a pocket or when all of the balls have been cleared off the table. 
 
 <img width="500" alt="Poolinator in Action" src="https://github.com/user-attachments/assets/ab40a052-6dd3-48f3-a214-d8fd682553aa" />
@@ -16,7 +15,7 @@ As a team, we programmed the Franka Emika Robot (FER) to play a game of pool on 
 
 [Click here to view the full Poolinator Demo](https://drive.google.com/file/d/1psu3DP3Hr34mRSthxlqQxPMicgn3MlMN/view?usp=sharing)
 
-### Teleoperated Turtle
+## Teleoperated Turtle
 Using the `turtlesim` package on ROS, I developed code to command a turtle to traverse waypoints that are generated via service calls. Once the turtle finishes traversing a cycle of waypoints, a custom message is published on the `/loop_metrics` topic that contains the number of loops completed by the turtle, the actual distance traveled, and the error between the actual distance traveled and the straight-line distance of the path.
 
 A video of the turtle following the waypoints can be seen below.
@@ -27,7 +26,7 @@ A video of the turtle following the waypoints can be seen below.
 
 
 
-### Machining a 2-DOF Pantograph
+## Machining a 2-DOF Pantograph
 <div class="slideshow-container">
   <!-- Slide 1 -->
   <div class="mySlides fade">
