@@ -20,3 +20,10 @@ into a pocket or when all of the balls have been cleared off the table.
 </video>
 
 [Click here to view the full Poolinator Demo](https://drive.google.com/file/d/1psu3DP3Hr34mRSthxlqQxPMicgn3MlMN/view?usp=sharing)
+
+### Teleoperated Turtle
+Using the `turtlesim` package on ROS, I developed code to command a turtle to traverse waypoints that are generated via service calls. Once the turtle finishes traversing a cycle of waypoints, a custom message is published on the `/loop_metrics` topic that contains the number of loops completed by the turtle, the actual distance traveled, and the error between the actual distance traveled and the straight-line distance of the path.
+
+A video of the turtle following the waypoints can be seen below.
+
+[Teleoperated Turtle.webm](https://github.com/user-attachments/assets/3d6ab2a0-eb4b-4c46-ad8b-6f2dacf6b33b)
