@@ -27,5 +27,5 @@ Using the `turtlesim` package on ROS, I developed code to command a turtle to tr
 A video of the turtle following the waypoints can be seen below.
 
 <video width="400" controls>
-  <source src="https://github.com/user-attachments/assets/3d6ab2a0-eb4b-4c46-ad8b-6f2dacf6b33b" type="video/mp4">
+  <source src="https://github.com/user-attachments/assets/8dfb995e-15e0-49ce-ae55-3d405a746c01" type="video/mp4">
 </video>
