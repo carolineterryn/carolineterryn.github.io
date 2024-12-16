@@ -36,8 +36,20 @@ A video of the turtle following the waypoints can be seen below.
 
   <!-- Slide 2 -->
   <div class="mySlides fade">
-    <img src="https://github.com/user-attachments/assets/b1ede566-a9c4-440a-85ef-67a83f3582ed" style="width:500" alt="Lathe">
-    <div class="caption">Caption for Image 2</div>
+    <img src="https://github.com/user-attachments/assets/b1ede566-a9c4-440a-85ef-67a83f3582ed" style="width:100%" alt="Lathe">
+    <div class="caption">First, we lathe!</div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/aedf17ed-7727-41d9-904c-a57ef46cddd6" style="width:100%" alt="Selfie Number 1">
+    <div class="caption">Selfie Break #1</div>
+  </div>
+
+  <!-- Slide 4 -->
+  <div class="mySlides fade">
+    <img src="https://github.com/user-attachments/assets/2a2116d8-aaa4-47e2-a15a-92988f9dce0d" style="width:100%" alt="Milling Op 1">
+    <div class="caption">Now, we mill!</div>
   </div>
 
   <!-- Next/Prev Buttons -->
@@ -57,7 +69,7 @@ function showSlides() {
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1}
   slides[slideIndex - 1].style.display = "block";
-  setTimeout(showSlides, 3000); // Change image every 3 seconds
+  setTimeout(showSlides, 10000); // Change image every 10 seconds
 }
 
 function plusSlides(n) {
