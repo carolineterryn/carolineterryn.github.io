@@ -26,6 +26,60 @@ A video of the turtle following the waypoints can be seen below.
 
 <div style="margin-bottom: 30px;"></div>
 
+## Solid Modeling
+Below is a slidehow to showcase the surface modeling projects I have worked on, focusing on components and assemblies with smooth, curved surfaces. 
+
+<div class="slideshow-container-new">
+  <!-- Slide 1 -->
+  <div class="mySlidesNew fade">
+    <img src="https://github.com/user-attachments/assets/f6bf8bd6-6267-4b4e-8880-cfb2abbe8962" style="height:400px" alt="Moshi Phone">
+    <div class="caption">Moshi Phone</div>
+  </div>
+
+  <!-- Slide 2 -->
+  <div class="mySlidesNew fade">
+    <img src="https://github.com/user-attachments/assets/dec8a6a7-473e-4a6d-9068-c5a377c0003c" style="height:400px" alt="Shovel">
+    <div class="caption">Shovel</div>
+  </div>
+
+  <!-- Slide 3 -->
+  <div class="mySlidesNew fade">
+    <img src="https://github.com/user-attachments/assets/a0a9c627-1901-4186-9fd0-26164671de5d" style="height:400px" alt="Eve">
+    <div class="caption">Eve (from Wall-E)</div>
+  </div>
+
+  <!-- Slide 4 -->
+  <div class="mySlidesNew fade">
+    <img src="https://github.com/user-attachments/assets/285b947c-3725-4279-a355-4bf2d3228ced" style="height:400px" alt="Detergent">
+    <div class="caption">Detergent Bottle</div>
+  </div>
+
+  <!-- Slide 5 -->
+  <div class="mySlidesNew fade">
+    <img src="https://github.com/user-attachments/assets/caa4f78a-3b40-4ce2-8b63-b26a20a55ebc" style="height:400px" alt="Mouse">
+    <div class="caption">Computer Mouse</div>
+  </div>
+  
+  <!-- Slide 6 -->
+  <div class="mySlidesNew fade">
+    <img src="https://github.com/user-attachments/assets/b48506ad-ad18-4bd0-8d77-d671790b0b4d" style="height:400px" alt="Deo">
+    <div class="caption">Deodorant Roller</div>
+  </div>
+
+  <!-- Slide 7 -->
+  <div class="mySlidesNew fade">
+    <img src="https://github.com/user-attachments/assets/9ee264b1-995a-4929-9e80-af5cff659132" style="height:400px" alt="Body Wash">
+    <div class="caption">Body Wash Bottle</div>
+  </div>
+
+  <!-- Next/Prev Buttons -->
+  <a class="prev" onclick="plusSlidesNew(-1)">❮</a>
+  <a class="next" onclick="plusSlidesNew(1)">❯</a>
+</div>
+
+<!-- Original Slideshow Below -->
+<div style="margin-bottom: 30px;"></div>
+
 ## Machining a 2-DOF Pantograph
 As part of my research at Northwestern, I built a pantograph to track users' finger positions. I included a brief slideshow of some of the steps involved to get from the initial design to the final product. Enjoy!
 
