@@ -150,27 +150,50 @@ As part of my research at Northwestern, I built a pantograph to track users' fin
 </div>
 
 <script>
-// Just manually navigate between slides with arrows
 let slideIndex = 0;
+let slideIndexNew = 0;
 
+// Function to display slides for 'mySlides' (original slideshow)
 function showSlides() {
   let slides = document.getElementsByClassName("mySlides");
   for (let i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  // Hide all slides
+    slides[i].style.display = "none";
   }
-  slides[slideIndex].style.display = "block"; // Show current slide
+  slides[slideIndex].style.display = "block";
 }
 
+// Navigation for the original slideshow
 function plusSlides(n) {
   slideIndex += n;
-  if (slideIndex >= document.getElementsByClassName("mySlides").length) { slideIndex = 0; }
-  if (slideIndex < 0) { slideIndex = document.getElementsByClassName("mySlides").length - 1; }
+  let slides = document.getElementsByClassName("mySlides");
+  if (slideIndex >= slides.length) { slideIndex = 0; }
+  if (slideIndex < 0) { slideIndex = slides.length - 1; }
   showSlides();
 }
 
-// Initialize the first image to be visible
+// Function to display slides for 'mySlidesNew' (first slideshow)
+function showSlidesNew() {
+  let slidesNew = document.getElementsByClassName("mySlidesNew");
+  for (let i = 0; i < slidesNew.length; i++) {
+    slidesNew[i].style.display = "none";
+  }
+  slidesNew[slideIndexNew].style.display = "block";
+}
+
+// Navigation for the 'mySlidesNew' slideshow
+function plusSlidesNew(n) {
+  slideIndexNew += n;
+  let slidesNew = document.getElementsByClassName("mySlidesNew");
+  if (slideIndexNew >= slidesNew.length) { slideIndexNew = 0; }
+  if (slideIndexNew < 0) { slideIndexNew = slidesNew.length - 1; }
+  showSlidesNew();
+}
+
+// Initialize both slideshows
 showSlides();
+showSlidesNew();
 </script>
+
 
 
 
