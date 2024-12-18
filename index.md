@@ -80,6 +80,17 @@ Below is a slidehow to showcase the surface modeling projects I have worked on, 
 <!-- Original Slideshow Below -->
 <div style="margin-bottom: 30px;"></div>
 
+## Simulating a Mobile Manipulator
+I developed software to drive a youBot mobile manipulator (a mobile base with four mecanum wheels and a 5R robot arm) to pick up a block at a specified position, carry it to a desired position, and put it down. The software plans a trajectory for the end-effector of the youBot, performs odometry as the chassis moves, and performs feedforward and feedback control to drive the youBot. The software outputs the configurations of the chassis and arm, the four wheels, and the state of the gripper (open or closed) as a function of time that can be "played" on CoppeliaSim. 
+
+<img width="500" alt="youBot at Home Configuration" src="https://github.com/user-attachments/assets/8b8a57f8-c912-4d9a-be6a-efb5dd0d9caa" />
+
+Each configuration was calculated using the kinematics of the youBot (shown in the image above), a reference trajectory that is calculated based on the initial and final locations of the block, and the calculated feedforward-plus-PI control law. I included a short clip of an example simulation below, where the block is moved from \( (x, y, \theta) = (1 \, \text{m}, 0 \, \text{m}, 0 \, \text{rad}) \) to \( (x, y, \theta) = (0 \, \text{m}, -1 \, \text{m}, -\pi/2 \, \text{rad}) \).
+
+<video width="500" controls>
+  <source src="https://github.com/user-attachments/assets/1136f6a4-6b28-4cad-9c45-b1f390a201f0" type="video/mp4">
+</video>
+
 ## Machining a 2-DOF Pantograph
 As part of my research at Northwestern, I built a pantograph to track users' finger positions. I included a brief slideshow of some of the steps involved to get from the initial design to the final product. Enjoy!
 
