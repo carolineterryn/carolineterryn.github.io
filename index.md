@@ -83,7 +83,6 @@ Below is a slidehow to showcase the surface modeling projects I have worked on, 
 I developed software to drive a youBot mobile manipulator (a mobile base with four mecanum wheels and a 5R robot arm) to pick up a block at a specified position, carry it to a desired position, and put it down. The software plans a trajectory for the end-effector of the youBot, performs odometry as the chassis moves, and performs feedforward and feedback control to drive the youBot. The software outputs the configurations of the chassis and arm, the four wheels, and the state of the gripper (open or closed) as a function of time that can be "played" on CoppeliaSim. 
 
 <img width="500" alt="youBot at Home Configuration" src="https://github.com/user-attachments/assets/8b8a57f8-c912-4d9a-be6a-efb5dd0d9caa" />
-
 youBot at Home Configuration (Image Credit: "Modern Robotics: Mechanics, Planning, and Control")
 
 Each configuration was calculated using the kinematics of the youBot (shown in the image above), a reference trajectory that is calculated based on the initial and final locations of the block, and the calculated feedforward-plus-PI control law. I included a short clip of an example simulation below, where the block is moved from <code>(x, y, &theta;) = (1 m, 0 m, 0 rad)</code> to <code>(x, y, &theta;) = (0 m, -1 m, -&pi;/2 rad)</code>.
